@@ -1,0 +1,8 @@
+cenario = input("onde se passa a historia: ")
+personagem_P = input("quem é o personagem principal: ")
+objetivo_do_PP = input(f"qual é o objetivo do {personagem_P}: ")
+decorrer_da_historia = input("como a historia se desenrola: ")
+reviravolta = input("qual é a reviravolta da historia: ")
+acao = input(f"como o personagem {personagem_P} reage: ")
+conclusao = input("como a historia termina: ")
+print(f"A historia se passa em {cenario}, onde o personagem principal {personagem_P} tem como objetivo {objetivo_do_PP}. Então {personagem_P} {decorrer_da_historia}, mas {reviravolta}. Então, {personagem_P} {acao}. E assim {conclusao}.")
